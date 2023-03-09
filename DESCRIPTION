@@ -1,0 +1,20 @@
+Package: squarelog
+Title: Robust Square Roots and Log Functions
+Version: 0.0.0.9000
+Authors@R: 
+    person("Eva", "Zadorozny", , "evaz@pitt.edu", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-7731-0424"))
+Description: Robust Square Roots and Log Functions.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Imports: 
+Depends: R (>= 2.10)
+LazyData: true
+LinkingTo: 
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+NeedsCompilation: yes
+Packaged: 2023-03-08 19:12:08 UTC; evaz
+Author: Eva Zadorozny [aut, cre] (0000-0002-7731-0424)
+Maintainer: Eva Zadorozny <evaz@pitt.edu>
