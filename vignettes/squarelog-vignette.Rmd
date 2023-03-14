@@ -1,0 +1,31 @@
+---
+title: "squarelog-vignette"
+author: "Eva V. Zadorozny"
+date: "2023-03-14"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(squarelog)
+
+#?log_2()
+#?sqrt_2()
+#?f_operator()
+
+#sqrt_2(-1)
+#log_2(-1)
+#Error: negative input, NA introduced!
+
+sqrt_3 = f_operator(sqrt_2)
+set.seed(2)
+(y = lapply(runif(2,-10,10), sqrt_3))
+
+log_3 = f_operator(log_2)
+set.seed(2)
+(y = lapply(runif(2,-10,10), log_3))
+```
+
