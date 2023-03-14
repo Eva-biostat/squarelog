@@ -1,14 +1,15 @@
-Package: myAwesomePackage
+Package: squarelog
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Robust Square Root and Log
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Eva V. Zadorozny
+Maintainer: <evaz@spitt.edu>
+Description: Makes functions keep going despite errors
+    Errors are negative numbers, single or in random stream.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.2.3
-URL: https://github.com/Eva-biostat/myAwesomePackage
-BugReports: https://github.com/Eva-biostat/myAwesomePackage/issues
+Imports: rlang
+URL: https://github.com/Eva-biostat/squarelog
+BugReports: https://github.com/Eva-biostat/squarelog/issues

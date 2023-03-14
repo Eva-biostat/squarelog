@@ -1,4 +1,4 @@
-#' sqrt.2
+#' sqrt2
 #'
 #' A robust square root function
 #'
@@ -9,9 +9,9 @@
 #' @export
 #'
 #' @examples
-#' sqrt.2(-1)
+#' sqrt2(-1)
 #'
-sqrt.2 = function(x){
+sqrt2 = function(x){
   if (x < 0) {
     rlang::abort(message = "Error: negative input, NA introduced!",
                  .subclass ="sqrt.2_error",
